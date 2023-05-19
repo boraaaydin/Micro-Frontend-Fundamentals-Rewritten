@@ -1,0 +1,2 @@
+install npm packages: npm i webpack webpack-cli html-webpack-plugin  webpack-dev-server nodemon
+setting container application : https://app.pluralsight.com/course-player?clipId=c22866e9-6cbf-40e7-915f-e6beadadd0f1
