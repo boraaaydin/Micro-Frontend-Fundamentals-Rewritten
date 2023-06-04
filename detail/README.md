@@ -1,2 +1,3 @@
 -install dependecies
 -npm install webpack webpack-cli webpack-dev-server html-webpack-plugin
+-bootstrap.js needed to load index.js async

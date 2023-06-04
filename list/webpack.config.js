@@ -14,6 +14,7 @@ module.exports = {
         name: "remote", //this name needs to match with the entry name
         filename: 'list.js',
         exposes: [{ './listIndex': './src/index' }],
-        library: { type: "var", name: "list" }
+        library: { type: "var", name: "list" },
+        shared:["lodash"]
     })]
 }

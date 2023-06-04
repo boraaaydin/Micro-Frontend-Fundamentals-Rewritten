@@ -14,6 +14,7 @@ module.exports = {
         name: "remote", //this name needs to match with the entry name
         filename: 'detail.js',
         exposes: [{ './detailPage': './src/index' }],
-        library: { type: "var", name: "detail" }
+        library: { type: "var", name: "detail" },
+        shared:["lodash"]
     })]
 }
